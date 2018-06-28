@@ -1,0 +1,28 @@
+@import url("/css/bootstrap.min.css");
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+div {
+  background-color: antiquewhite;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.special-div {
+  width: 400px;
+  height: 100px;
+  margin: 25px;
+  padding: 10px;
+  border: 10px;
+  border-color: black;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+
+}

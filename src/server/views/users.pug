@@ -1,0 +1,49 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    div.container
+        div.row
+            div.col-12.col-md-8 12 or 8
+            div.col-6.col-md-4 6 or 4
+        div.row
+            div.col-6.col-md-4 50% or 33.4%
+            div.col-6.col-md-4 50% or 33.4%
+            div.col-6.col-md-4 50% or 33.4%
+        div.row
+            div.col-6 .col-6
+            div.col-6 .col-6
+    br
+    div.container
+        div.row
+            div.col-12.col-sm-6.col-md-8 Small: 12 Tablet: 6 Large: 8
+            div.col-6.col-md-4 Small: 6 Large: 8
+        div.row
+            div.col-6.col-sm-4 A Small: 6 Tablet:4 
+            div.col-6.col-sm-4 B Small: 6 Tablet:4
+            div.clearfix.d-block
+            div.col-6.col-sm-4 C Small: 6 Tablet:4
+
+    br
+    div.container
+        div.row
+            div.col-9 9
+            div.col-4 4
+                br 
+                | And More Content
+            div.col-6 6
+                br 
+                | More columns
+
+    br
+    div.container
+        div.row
+            div.col-6.col-sm-3 Small: 6 Tablet: 3
+                br
+                | More
+                br
+                | Even More
+            div.col-6.col-sm-3 Small: 6 Tablet: 3
+            div.col-6.col-sm-3 Small: 6 Tablet: 3
+            div.col-6.col-sm-3 Small: 6 Tablet: 3
