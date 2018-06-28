@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardText, CardBody, CardTitle, CardDeck } from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import _ from 'lodash';
 
@@ -29,7 +29,7 @@ class Home extends Component {
                 <Row>
                     <Col>
                         <div>
-                            <Card>
+                            <Card className="card-margin">
                                 <CardBody>
                                     <CardText>
                                         {this.state.p}
@@ -40,26 +40,19 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        {
-                            _(this.state.cards).chunk(3)
-                                .map((arr, i) => {
-                                    return <CardDeck>
-                                        {_.map(arr, (card, j) => {
-                                            <Card>
-                                                <CardBody>
-                                                    <CardTitle>{card.title}</CardTitle>
-                                                    <CardText>{card.text}</CardText>
-                                                </CardBody>
-                                            </Card>
-
-                                        })
-                                        }
-                                    </CardDeck>
-                                }
-                                )
+                    {
+                        _.map(this.state.cards, (card, i) => {
+                            return <Col sm="4" key={i.toString()}>
+                                <Card key={i.toString()} className="card-margin">
+                                    <CardBody>
+                                        <CardTitle>{card.title}</CardTitle>
+                                        <CardText>{card.text}</CardText>
+                                    </CardBody>
+                                </Card>
+                            </Col>
                         }
-                    </Col>
+                        )
+                    }
                 </Row>
             </Container>
         )

@@ -5,3 +5,8 @@ body {
   /* font-size: 12px; */
   background-color: aliceblue;
 }
+
+.card-margin {
+  margin: 10px;
+  border-radius: .5rem;
+}
