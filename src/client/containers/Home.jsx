@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import { Card, CardText, CardBody, CardTitle, CardDeck } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
+import _ from 'lodash';
 
 import axios from 'axios'
 
 class Home extends Component {
     state = {
-        p:null,
-        cards:[]
+        p: null,
+        cards: []
     };
 
     componentDidMount() {
@@ -20,22 +23,45 @@ class Home extends Component {
             })
     }
 
-
     render() {
         return (
-            <div className="container">
-                <p>
-                    {this.state.p}
-                </p>                
-                {
-                    this.state.cards.map(card => {
-                        return (<div>
-                            <h3>{card.h3}</h3>
-                            <p>{card.p}</p>
-                        </div>)
-                    })
-                }
-            </div>
+            <Container>
+                <Row>
+                    <Col>
+                        <div>
+                            <Card>
+                                <CardBody>
+                                    <CardText>
+                                        {this.state.p}
+                                    </CardText>
+                                </CardBody>
+                            </Card>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        {
+                            _(this.state.cards).chunk(3)
+                                .map((arr, i) => {
+                                    return <CardDeck>
+                                        {_.map(arr, (card, j) => {
+                                            <Card>
+                                                <CardBody>
+                                                    <CardTitle>{card.title}</CardTitle>
+                                                    <CardText>{card.text}</CardText>
+                                                </CardBody>
+                                            </Card>
+
+                                        })
+                                        }
+                                    </CardDeck>
+                                }
+                                )
+                        }
+                    </Col>
+                </Row>
+            </Container>
         )
     }
 }
