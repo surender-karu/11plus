@@ -81,7 +81,8 @@ module.exports = function (proxy, allowedHost) {
     },
     public: allowedHost,
     proxy: {
-      "/api": "http://localhost:9000/"
+      "/api": "http://localhost:9000/",
+      "/css": "http://localhost:9000/"
     },
     before(app) {
       // This lets us open files from the runtime error overlay.

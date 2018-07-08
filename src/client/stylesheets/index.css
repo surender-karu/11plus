@@ -1,9 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* font-size: 12px; */
-  background-color: aliceblue;
+  /* background-color: #fff;
+  background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 2em; */
+  background: linear-gradient(to left, rgba(65, 12, 24, 0.3), rgba(92, 58, 146, 0.2) );
+  background: url("../img/cubes_@2X.png");
+  background: linear-gradient(to left, rgba(65, 12, 24, 0.3), rgba(92, 58, 146, 0.2) ), url("../img/cubes_@2X.png");
 }
 
 .card-margin {
@@ -13,4 +16,10 @@ body {
 
 .transparent-bg {
   background-color: transparent
+}
+
+.master-bg {
+  background: linear-gradient(to left, rgba(65, 12, 24, 0.3), rgba(92, 58, 146, 0.2) );
+  background: url("../img/cubes_@2X.png");
+  background: linear-gradient(to left, rgba(65, 12, 24, 0.3), rgba(92, 58, 146, 0.2) ), url("../img/cubes_@2X.png");
 }

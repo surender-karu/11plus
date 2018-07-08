@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import '../stylesheets/App.css';
 import EPNavigation from '../components/EPNavigation'
 
@@ -16,6 +17,10 @@ class App extends Component {
       </div>
     );
   }
+}
+
+App.propTypes = {
+  children : PropTypes.array.isRequired
 }
 
 export default App;

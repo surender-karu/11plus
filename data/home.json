@@ -1,29 +1,36 @@
-{
-    "p" : "11plusguru is based in Sutton, South-West London and provides 11 plus tuition for year 5 and year 4 children in all subjects and caters for the main examining boards and regions.We aim to provide specialist 11 plus teaching in an exciting and rewarding environment and implement exam board specific techniques that are proven to improve speed and accuracy. We also provide access to our exclusive homework platform and provide supplementary revision software.In our tuition centre, we implement exam board specific methods and techniques for each 11 plus subject (numerical reasoning, verbal reasoning, mathematics, English and non-verbal reasoning) and then provide a thorough bank of proprietary questions (online and paper based) unique to our Centre to enhance speed and accuracy. If you would like your child to join our tuition centre, it would ideal for you to attend one of our parent information evenings, which provide information about the course. Please fill in the parent information evening registration form at this link to find out more.",
-    "cards": [
-          {
-              "title":"Mock Exams",
-              "text" : "Mock exams help parents and students understand the exam environment. We show parents all the exam papers and give results within two days.we never create generic style papers."
-          },
-          {
-              "title":"11Plus Shop",
-              "text" : "Practice 11 Plus Maths, English, Verbal Reasoning and Non-Verbal Reasoning on-line. 50,000 questions, 24/7 access and immediate results at the click of a button."
-          },
-          {
-              "title":"Online Exams",
-              "text" : "Our mock exam is unique so that it can sit the exam on a control environment so that it can be examined on the day of exams.Results will be standardised and returned to you1."
-          },
-          {
-              "title":"Free Resources",
-              "text" : "11 plus test we can understand that your route is in the way of the exam, but there are a lot of resources to give you all the tips you need to give advice before and after the exam."
-          },
-          {
-              "title":"Results",
-              "text" : "We encourage you to learn bold attitude, accuracy and exam technology. mock exams helps parents and students understand the examination environment."
-          },
-          {
-              "title":"11 Plus Tution",
-              "text" : "11PlusDIY courses provide specialist tuition in the School holidays. We only focus on tutoring the subjects that really make a difference in the exam. Our membership is simple and great value."
-          }
-      ]
-}
+[{
+    "section": {
+        "cards": [{
+            "text": "11plusguru is based in Sutton, South-West London and provides 11 plus tuition for year 5 and year 4 children in all subjects and caters for the main examining boards and regions.We aim to provide specialist 11 plus teaching in an exciting and rewarding environment and implement exam board specific techniques that are proven to improve speed and accuracy. We also provide access to our exclusive homework platform and provide supplementary revision software.In our tuition centre, we implement exam board specific methods and techniques for each 11 plus subject (numerical reasoning, verbal reasoning, mathematics, English and non-verbal reasoning) and then provide a thorough bank of proprietary questions (online and paper based) unique to our Centre to enhance speed and accuracy. If you would like your child to join our tuition centre, it would ideal for you to attend one of our parent information evenings, which provide information about the course. Please fill in the parent information evening registration form at this link to find out more."
+        }]
+    }
+}, {
+    "section": {
+        "cols": "3",
+        "cards": [{
+                "title": "Mock Exams",
+                "text": "Mock exams help parents and students understand the exam environment. We show parents all the exam papers and give results within two days.we never create generic style papers."
+            },
+            {
+                "title": "11Plus Shop",
+                "text": "Practice 11 Plus Maths, English, Verbal Reasoning and Non-Verbal Reasoning on-line. 50,000 questions, 24/7 access and immediate results at the click of a button."
+            },
+            {
+                "title": "Online Exams",
+                "text": "Our mock exam is unique so that it can sit the exam on a control environment so that it can be examined on the day of exams.Results will be standardised and returned to you1."
+            },
+            {
+                "title": "Free Resources",
+                "text": "11 plus test we can understand that your route is in the way of the exam, but there are a lot of resources to give you all the tips you need to give advice before and after the exam."
+            },
+            {
+                "title": "Results",
+                "text": "We encourage you to learn bold attitude, accuracy and exam technology. mock exams helps parents and students understand the examination environment."
+            },
+            {
+                "title": "11 Plus Tution",
+                "text": "11PlusDIY courses provide specialist tuition in the School holidays. We only focus on tutoring the subjects that really make a difference in the exam. Our membership is simple and great value."
+            }
+        ]
+    }
+}]
